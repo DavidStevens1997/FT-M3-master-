@@ -76,7 +76,7 @@ describe('exercise one (involving poem one)', function () {
 
 	});
 
-	xdescribe('problemC', function () {
+	describe('problemC', function () {
 
 		it('logs the second THEN the third stanza', function (done) {
 			exercise.problemC();
@@ -91,7 +91,7 @@ describe('exercise one (involving poem one)', function () {
 
 	});
 
-	xdescribe('problemD', function () {
+	describe('problemD', function () {
 
 		it('logs the fourth stanza or an error if one occurs', function (done) {
 			exercise.problemD();
@@ -106,7 +106,7 @@ describe('exercise one (involving poem one)', function () {
 
 	});
 
-	xdescribe('problemE', function () {
+	describe('problemE', function () {
 
 		it('logs the third THEN the fourth stanza; if an error occurs only logs the error and does not continue reading (if there is a file still left to read)', function (done) {
 			exercise.problemE();
@@ -134,7 +134,7 @@ describe('exercise one (involving poem one)', function () {
 
 	});
 
-	xdescribe('problemF', function () {
+	describe('problemF', function () {
 
 
 		var originalLog = console.log;
